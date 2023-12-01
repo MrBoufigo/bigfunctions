@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://unytics.io/bigfunctions/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unytics.io/bigfunctions/CONTRIBUTING/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unytics.io/bigfunctions/bigfun/templates/bigfunctions/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unytics.io/bigfunctions/bigfun/templates/data/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unytics.io/bigfunctions/bigfunctions/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://unytics.io/bigfunctions/data/</loc>
+         <lastmod>2023-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

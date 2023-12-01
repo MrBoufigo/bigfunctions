@@ -1,0 +1,20 @@
+type: function_sql
+category: transform_array
+author:
+  name: "Benjamin Tabet"
+  url: https://www.linkedin.com/in/benjamin-tabet
+  avatar_url: "https://media.licdn.com/dms/image/C4D03AQGWnyJdEmZeZw/profile-displayphoto-shrink_200_200/0/1667928305931?e=1686787200&v=beta&t=sW-albet4-jvB_cv7krxCz16BFHdi6-ohc0bXbi-EIY"
+description: |-
+  Return the sum of array values
+arguments:
+  - name: arr
+    type: any type
+output:
+  name: value
+  type: any type
+examples:
+  - description: ""
+    arguments:
+      - "[1, 4, 3]"
+    output: "8"
+code: (select sum(value) from unnest(arr) value)

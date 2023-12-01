@@ -1,0 +1,982 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Catalog of open-source BigFunctions">
+      
+      
+      
+        <link rel="canonical" href="https://unytics.io/bigfunctions/bigfun/templates/bigfunctions/">
+      
+      
+        <link rel="prev" href="../../../CONTRIBUTING/">
+      
+      
+        <link rel="next" href="../data/">
+      
+      
+      <link rel="icon" href="../../../site/assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Explore - BigFunctions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.fad675c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../site/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+
+<meta property="og:title" content="Explore - BigFunctions" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:title" content="Explore - BigFunctions" />
+
+
+
+<meta property="og:description" content="Catalog of open-source BigFunctions" />
+
+
+
+<meta property="og:image" content="https://unytics.io/bigfunctions/assets/logo_and_name.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="2500" />
+<meta property="og:image:height" content="541" />
+<meta property="twitter:image" content="https://unytics.io/bigfunctions/assets/logo_and_name.png" />
+<meta property="twitter:image:alt" content="Supercharge BigQuery with BigFunctions" />
+
+
+<style>
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
+    }
+  }
+</style>
+
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <style>
+    .md-banner a {
+      color: white;
+    }
+    .md-banner a:hover {
+      color: gold;
+    }
+  </style>
+  <p style="text-align: center;">
+    <em>
+      BigFunctions is fully open-source</em>
+        <svg width="11" height="10" viewBox="0 0 11 10" fill="none" style="margin-left:2px"><path d="M1 5.16772H9.5M9.5 5.16772L6.5 1.66772M9.5 5.16772L6.5 8.66772" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <span style="margin: 0 0.25rem 0 0.5rem">⭐</span><a href="https://github.com/unytics/bigfunctions"><u>Star us on GitHub!</u></a>
+  </p>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      <!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header__inner md-grid" aria-label="header.title">
+
+    <!-- Link to home -->
+    <a href="https://unytics.io/bigfunctions/" title="BigFunctions" class="md-header__button md-logo" aria-label="BigFunctions">
+      
+  <img src="../../../site/assets/logo.png" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <a class="md-ellipsis" href="https://unytics.io/bigfunctions/">
+            BigFunctions
+          </a>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Explore
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search dialogue -->
+    
+
+    <!-- Repository containing source -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/unytics/bigfunctions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    unytics/bigfunctions
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+  
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Get Started!
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../bigfunctions/" class="md-tabs__link">
+          
+  
+    
+  
+  Bigfunctions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../data/" class="md-tabs__link">
+          
+  
+    
+  
+  Data
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../CONTRIBUTING/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribute!
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+
+
+  
+
+
+  <!-- Additional styles for landing page -->
+<style>
+
+
+/* Get started button */
+.md-typeset .md-button--primary:hover, .md-typeset .md-button--primary-white, .md-typeset .md-button--primary-white:hover {
+  color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+.md-typeset .md-button--primary {
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-bg-color);
+}
+
+.tx-hero {
+  max-width: 700px;
+  display: flex;
+  padding: .4rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.tx-hero h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: rgb(38, 38, 38);
+}
+.tx-hero p {
+  color: rgb(92, 92, 92);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.tx-hero__image {
+  max-width: 1000px;
+  /*min-width: 600px;*/
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.tx-hero__image img {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+}
+
+</style>
+
+  <!-- Hero for landing page -->
+  <div class="md-container tx-hero">
+    <div class="md-grid md-typeset">
+      <div class="md-main__inner">
+        <div>
+          <h1>Supercharge <u>BigQuery</u><br>with <u>BigFunctions</u></h1>
+          <p>
+            <b>Upgrade your data impact</b><br>
+            <i>with</i> 100+ ready-to-use BigQuery Functions
+          </p>
+          <p style="margin-bottom: 2rem"><i>(+ build a catalog of functions)</i></p>
+          <a href="bigfunctions/" class="md-button md-button--primary">
+            Try it!
+            <svg width="11" height="10" viewBox="0 0 11 10" fill="none" style="margin-left:2px"><path d="M1 5.16772H9.5M9.5 5.16772L6.5 1.66772M9.5 5.16772L6.5 8.66772" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="md-container">
+    <div class="tx-hero__image">
+      <img
+        src="https://unytics.io/bigfunctions/assets/images/bigfunctions_intro.gif"
+        alt=""
+        draggable="false"
+        style="border: black solid 1rem; width: 100%; margin-top: 5rem;"
+      >
+    </div>
+  </div> -->
+
+  <hr style="margin: 16em 1em 1.5em 1em;  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest); display: flow-root;">
+
+
+  
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="BigFunctions" class="md-nav__button md-logo" aria-label="BigFunctions" data-md-component="logo">
+      
+  <img src="../../../site/assets/logo.png" alt="logo">
+
+    </a>
+    BigFunctions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/unytics/bigfunctions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    unytics/bigfunctions
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../bigfunctions/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Bigfunctions
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Bigfunctions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../data/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Data
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CONTRIBUTING/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#categoryemoticon-if-categoryname-ai-ai-else-categoryname-replace_-capitalize-endif" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{ category.emoticon }} {% if category.name == 'AI' %}AI{% else %}{{ category.name | replace('_', ' ') | capitalize }}{% endif %}
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="{{ category.emoticon }} {% if category.name == 'AI' %}AI{% else %}{{ category.name | replace('_', ' ') | capitalize }}{% endif %}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bigfunctionname" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{ bigfunction.name }}
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Explore</h1>
+
+<div class="admonition note">
+<p><strong>✅ You can call ANY of the following public BigFunctions from your Google Cloud Project</strong> (<em>no install</em>).</p>
+<ul>
+<li>The functions are deployed in <code>bigfunctions</code> GCP project in 39 datasets for all of the 39 BigQuery regions.</li>
+<li>They are public, so they can be called by anyone.</li>
+<li>For any question or difficulties, please read <a href="/bigfunctions/">Getting Started</a>.</li>
+<li>If you prefer to deploy the BigFunction in your own project, read <a href="/bigfunctions/">Getting Started</a>.</li>
+<li>Found a bug? Please raise an issue <a href="https://github.com/unytics/bigfunctions/issues/new/choose">here</a></li>
+</ul>
+</div>
+<details class="info">
+<summary>All BigFunctions Datasets &gt;</summary>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Dataset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>EU</code></td>
+<td><code>bigfunctions.eu</code></td>
+</tr>
+<tr>
+<td><code>US</code></td>
+<td><code>bigfunctions.us</code></td>
+</tr>
+<tr>
+<td><code>asia-east1</code></td>
+<td><code>bigfunctions.asia_east1</code></td>
+</tr>
+<tr>
+<td><code>asia-east2</code></td>
+<td><code>bigfunctions.asia_east2</code></td>
+</tr>
+<tr>
+<td><code>asia-northeast1</code></td>
+<td><code>bigfunctions.asia_northeast1</code></td>
+</tr>
+<tr>
+<td><code>asia-northeast2</code></td>
+<td><code>bigfunctions.asia_northeast2</code></td>
+</tr>
+<tr>
+<td><code>asia-northeast3</code></td>
+<td><code>bigfunctions.asia_northeast3</code></td>
+</tr>
+<tr>
+<td><code>asia-south1</code></td>
+<td><code>bigfunctions.asia_south1</code></td>
+</tr>
+<tr>
+<td><code>asia-south2</code></td>
+<td><code>bigfunctions.asia_south2</code></td>
+</tr>
+<tr>
+<td><code>asia-southeast1</code></td>
+<td><code>bigfunctions.asia_southeast1</code></td>
+</tr>
+<tr>
+<td><code>asia-southeast2</code></td>
+<td><code>bigfunctions.asia_southeast2</code></td>
+</tr>
+<tr>
+<td><code>australia-southeast1</code></td>
+<td><code>bigfunctions.australia_southeast1</code></td>
+</tr>
+<tr>
+<td><code>australia-southeast2</code></td>
+<td><code>bigfunctions.australia_southeast2</code></td>
+</tr>
+<tr>
+<td><code>europe-central2</code></td>
+<td><code>bigfunctions.europe_central2</code></td>
+</tr>
+<tr>
+<td><code>europe-north1</code></td>
+<td><code>bigfunctions.europe_north1</code></td>
+</tr>
+<tr>
+<td><code>europe-southwest1</code></td>
+<td><code>bigfunctions.europe_southwest1</code></td>
+</tr>
+<tr>
+<td><code>europe-west1</code></td>
+<td><code>bigfunctions.europe_west1</code></td>
+</tr>
+<tr>
+<td><code>europe-west2</code></td>
+<td><code>bigfunctions.europe_west2</code></td>
+</tr>
+<tr>
+<td><code>europe-west3</code></td>
+<td><code>bigfunctions.europe_west3</code></td>
+</tr>
+<tr>
+<td><code>europe-west4</code></td>
+<td><code>bigfunctions.europe_west4</code></td>
+</tr>
+<tr>
+<td><code>europe-west6</code></td>
+<td><code>bigfunctions.europe_west6</code></td>
+</tr>
+<tr>
+<td><code>europe-west8</code></td>
+<td><code>bigfunctions.europe_west8</code></td>
+</tr>
+<tr>
+<td><code>europe-west9</code></td>
+<td><code>bigfunctions.europe_west9</code></td>
+</tr>
+<tr>
+<td><code>europe-west12</code></td>
+<td><code>bigfunctions.europe_west12</code></td>
+</tr>
+<tr>
+<td><code>me-central1</code></td>
+<td><code>bigfunctions.me_central1</code></td>
+</tr>
+<tr>
+<td><code>me-west1</code></td>
+<td><code>bigfunctions.me_west1</code></td>
+</tr>
+<tr>
+<td><code>northamerica-northeast1</code></td>
+<td><code>bigfunctions.northamerica_northeast1</code></td>
+</tr>
+<tr>
+<td><code>northamerica-northeast2</code></td>
+<td><code>bigfunctions.northamerica_northeast2</code></td>
+</tr>
+<tr>
+<td><code>southamerica-east1</code></td>
+<td><code>bigfunctions.southamerica_east1</code></td>
+</tr>
+<tr>
+<td><code>southamerica-west1</code></td>
+<td><code>bigfunctions.southamerica_west1</code></td>
+</tr>
+<tr>
+<td><code>us-central1</code></td>
+<td><code>bigfunctions.us_central1</code></td>
+</tr>
+<tr>
+<td><code>us-east1</code></td>
+<td><code>bigfunctions.us_east1</code></td>
+</tr>
+<tr>
+<td><code>us-east4</code></td>
+<td><code>bigfunctions.us_east4</code></td>
+</tr>
+<tr>
+<td><code>us-east5</code></td>
+<td><code>bigfunctions.us_east5</code></td>
+</tr>
+<tr>
+<td><code>us-south1</code></td>
+<td><code>bigfunctions.us_south1</code></td>
+</tr>
+<tr>
+<td><code>us-west1</code></td>
+<td><code>bigfunctions.us_west1</code></td>
+</tr>
+<tr>
+<td><code>us-west2</code></td>
+<td><code>bigfunctions.us_west2</code></td>
+</tr>
+<tr>
+<td><code>us-west3</code></td>
+<td><code>bigfunctions.us_west3</code></td>
+</tr>
+<tr>
+<td><code>us-west4</code></td>
+<td><code>bigfunctions.us_west4</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="overview">📄 Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
+<p>BigFunctions are open-source BigQuery routines that give you <strong>SQL-superpowers</strong> in BigQuery 💪.</p>
+<div class="admonition note">
+<p>{% for category in categories %}</p>
+<p><strong>{{ category.emoticon }} {% if category.name == 'AI' %}AI{% else %}{{ category.name | replace('_', ' ') | capitalize }}{% endif %}</strong></p>
+<p _="%" endfor="endfor">{% for bigfunction in category.bigfunctions -%}
+{% set bigfunction_description_lines = bigfunction.description.split('\n') %}
+- <a href="#{{ bigfunction.name }}"><code>{{ bigfunction.name }}({% for argument in bigfunction.arguments %}{{ argument.name }}{% if not loop.last %}, {% endif %}{% endfor %})</code></a>: {{ bigfunction_description_lines[0] }}</p>
+<p>{% endfor %}</p>
+</div>
+<p>{% for category in categories %}</p>
+<div style="margin-top: 6rem;"></div>
+
+<h2 id="categoryemoticon-if-categoryname-ai-ai-else-categoryname-replace_-capitalize-endif">{{ category.emoticon }} {% if category.name == 'AI' %}AI{% else %}{{ category.name | replace('_', ' ') | capitalize }}{% endif %}<a class="headerlink" href="#categoryemoticon-if-categoryname-ai-ai-else-categoryname-replace_-capitalize-endif" title="Permanent link">¶</a></h2>
+<div class="admonition note">
+<p>**{{ category.title }} **</p>
+<p>{{ category.subtitle }}</p>
+</div>
+<hr />
+<p>{% for bigfunction in category.bigfunctions %}</p>
+<h3 id="bigfunctionname">{{ bigfunction.name }}<a class="headerlink" href="#bigfunctionname" title="Permanent link">¶</a></h3>
+<div style="position: relative; top: -2rem; margin-bottom:  -2rem; text-align: right; z-index: 9999;">
+  {% if bigfunction.author %}
+  <a href="{{ bigfunction.author.url }}" title="{% if not bigfunction.author.name.startswith('Credits') %}Author: {% endif %}{{ bigfunction.author.name }}" target="_blank">
+    <img src="{{ bigfunction.author.avatar_url }}" width="32" style=" border-radius: 50% !important">
+  </a>
+  {% endif %}
+  <a href="{{ repo_url }}/blob/main/bigfunctions/{{ bigfunction.name }}.yaml" title="Edit on GitHub" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#5d6cc0" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></div>
+<div class="highlight"><pre><span></span><code>{{ bigfunction.name }}({% for argument in bigfunction.arguments %}{{ argument.name }}{% if not loop.last %}, {% endif %}{% endfor %})
+</code></pre></div>
+<p><strong>Description</strong></p>
+<p>{{ bigfunction.description }}</p>
+<p><strong>Examples</strong></p>
+<p>{% for example in bigfunction.examples %}</p>
+<p>{% if example.description %}<span style="color: var(--md-typeset-a-color);">{% if bigfunction.examples|length &gt; 1 %}{{ loop.index }}. {% endif %}{{ example.description }}</span>{% endif %}</p>
+<p>{% if datasets|length &gt; 1 %}</p>
+<p>{% for dataset in datasets %}</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">{{ dataset.region }}</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">call</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;table_function&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">from</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="w"> </span><span class="err">{{</span><span class="w"> </span><span class="n">dataset</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}</span><span class="p">.</span><span class="err">{{</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}</span><span class="p">(</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">argument</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">example</span><span class="p">.</span><span class="n">arguments</span><span class="w"> </span><span class="o">%</span><span class="err">}{{</span><span class="w"> </span><span class="n">argument</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="k">replace</span><span class="p">(</span><span class="s1">&#39;{BIGFUNCTIONS_DATASET}&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">dataset</span><span class="p">.</span><span class="n">name</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="k">replace</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;\n      &#39;</span><span class="p">)</span><span class="w"> </span><span class="err">}}{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">loop</span><span class="p">.</span><span class="k">last</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">,</span><span class="w"> </span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}{</span><span class="o">%</span><span class="w"> </span><span class="n">endfor</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">)</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="s1">&#39;output&#39;</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">bigfunction</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">&#39;table_function&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="err">{{</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">output</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+<span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">template</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="n">html</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">bigfunction_result</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+<span class="err">{</span><span class="o">%-</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">example</span><span class="p">.</span><span class="k">output</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">bigfunction_result</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>{% endfor %}</p>
+<p>{% else %}</p>
+<p>{% for dataset in datasets %}</p>
+<div class="highlight"><pre><span></span><code><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">call</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;table_function&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">from</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="w"> </span><span class="err">{{</span><span class="w"> </span><span class="n">dataset</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}</span><span class="p">.</span><span class="err">{{</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}</span><span class="p">(</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">argument</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">example</span><span class="p">.</span><span class="n">arguments</span><span class="w"> </span><span class="o">%</span><span class="err">}{{</span><span class="w"> </span><span class="n">argument</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="k">replace</span><span class="p">(</span><span class="s1">&#39;{BIGFUNCTIONS_DATASET}&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">dataset</span><span class="p">.</span><span class="n">name</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="k">replace</span><span class="p">(</span><span class="s1">&#39;\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;\n  &#39;</span><span class="p">)</span><span class="w"> </span><span class="err">}}{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">loop</span><span class="p">.</span><span class="k">last</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">,</span><span class="w"> </span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}{</span><span class="o">%</span><span class="w"> </span><span class="n">endfor</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">)</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">elif</span><span class="w"> </span><span class="s1">&#39;output&#39;</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">bigfunction</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">&#39;table_function&#39;</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="err">{{</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">output</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="err">}}{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+<span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">template</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="n">html</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">bigfunction_result</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+<span class="err">{</span><span class="o">%-</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">bigfunction</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;procedure&#39;</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">example</span><span class="p">.</span><span class="k">output</span><span class="w"> </span><span class="o">%</span><span class="err">}</span><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">bigfunction_result</span><span class="p">;</span><span class="err">{</span><span class="o">%</span><span class="w"> </span><span class="n">endif</span><span class="w"> </span><span class="o">%</span><span class="err">}</span>
+</code></pre></div>
+<p>{% endfor %}</p>
+<p>{% endif %}</p>
+<p>{% if bigfunction.type not in ('procedure', 'table_function') and 'output' in example %}</p>
+<pre style="margin-top: -1rem;">
+<code style="padding-top: 0px; padding-bottom: 0px;">
+{%- set output_name_length = bigfunction.output.name | length -%}
+{%- set output_length = example.output | length -%}
+{%- set hyphens_length = [output_name_length, output_length] | max -%}
+{%- set hyphens = '-' * hyphens_length -%}
+{%- set name_padding_length = [0, output_length - output_name_length] | max -%}
+{%- set name_padding = ' ' * name_padding_length -%}
+{%- set value_padding_length = [0, output_name_length - output_length] | max -%}
+{%- set value_padding = ' ' * value_padding_length -%}
++-{{ hyphens }}-+
+| {{ bigfunction.output.name }}{{ name_padding }} |
++-{{ hyphens }}-+
+| {{ example.output | escape }}{{ value_padding }} |
++-{{ hyphens }}-+
+</code>
+</pre>
+
+<p>{% endif %}</p>
+<p>{% if bigfunction.type in ('procedure', 'table_function') and 'output' in example %}</p>
+<pre style="margin-top: -1rem;">
+<code style="padding-top: 0px; padding-bottom: 0px;">
+{{ example.output }}
+</code>
+</pre>
+
+<p>{% endif %}</p>
+<p _="%" endfor="endfor">{% if example.screenshot %}<a href="{{ example.screenshot }}"><img alt="screenshot" src="{{ example.screenshot }}" style="border: var(--md-code-bg-color) solid 1rem; margin-top: -1rem; width: 100%"></a>{% endif %}</p>
+<hr />
+<p>{% endfor %}</p>
+<p>{% endfor %}</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        
+
+<!-- Application footer -->
+<footer class="md-footer">
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset" style="background-color: #fff;">
+    <div class="md-footer-meta__inner md-grid" style="background-color: #fff;">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        <img
+          src="https://unytics.io/bigfunctions/site/assets/logo_and_name.png"
+          alt=""
+          draggable="false"
+          width="300"
+        >
+        
+          <div class="md-footer-copyright__highlight" style="color: rgb(92, 92, 92);">
+            Copyright &copy; 2023 Unytics
+          </div>
+        
+      </div>
+
+      <!-- Social links -->
+      <div class="md-social">
+  
+</div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs", "content.tabs.link", "content.code.copy", "instant", "navigation.instant", "navigation.path", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.hide", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>

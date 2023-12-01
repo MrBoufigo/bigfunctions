@@ -1,0 +1,21 @@
+type: function_sql
+category: transform_array
+author:
+  name: "Credits: Taylor Brownlow"
+  url: https://www.linkedin.com/in/taylorabrownlow/
+  avatar_url: "https://media-exp1.licdn.com/dms/image/C4E03AQFCRlj44wnbhA/profile-displayphoto-shrink_200_200/0/1579795128165?e=1672272000&v=beta&t=LxL7tn53S_dQU0jMAeT3lHiAP4anA8GSiYD71u63pMs"
+description: |-
+  Return min value of array
+  *(inspired from [sql-snippets repo](https://github.com/count/sql-snippets/blob/main/bigquery/least-array.md))*
+arguments:
+  - name: arr
+    type: any type
+output:
+  name: value
+  type: any type
+examples:
+  - description: ""
+    arguments:
+      - "[1, 4, 3]"
+    output: "1"
+code: (select min(value) from unnest(arr) value)

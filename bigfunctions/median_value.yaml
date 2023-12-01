@@ -1,0 +1,25 @@
+type: function_sql
+category: transform_array
+author:
+  name: "Credits: Taylor Brownlow"
+  url: https://www.linkedin.com/in/taylorabrownlow/
+  avatar_url: "https://media-exp1.licdn.com/dms/image/C4E03AQFCRlj44wnbhA/profile-displayphoto-shrink_200_200/0/1579795128165?e=1672272000&v=beta&t=LxL7tn53S_dQU0jMAeT3lHiAP4anA8GSiYD71u63pMs"
+description: |-
+  Return median value of array
+  *(inspired from [sql-snippets repo](https://github.com/count/sql-snippets/blob/main/bigquery/median.md))*
+arguments:
+  - name: arr
+    type: any type
+output:
+  name: value
+  type: any type
+examples:
+  - description: "When array length is odd"
+    arguments:
+      - "[1, 4, 3]"
+    output: "3"
+  - description: "When array length is even"
+    arguments:
+      - "[1, 4, 3, 2]"
+    output: "2.5"
+code: (select percentile_cont(value, 0.5) over() from unnest(arr) value limit 1)
